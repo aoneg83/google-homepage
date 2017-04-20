@@ -1,0 +1,100 @@
+body {
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  overflow: hidden;
+}
+
+.top-bar {
+  text-align: right;
+}
+
+.top-bar a {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+  padding: 0 6px;
+}
+
+.top-bar img{
+  position: relative;
+  top: 10px;
+}
+
+.top-bar input{
+  padding: 0;
+  background-color: #4285F4;
+  color: white;
+  line-height: 28px;
+  padding:0 12px;
+  border: none;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  border-radius: 2px;
+  box-sizing: border-box;
+  margin-left: 15px;
+  margin-right: 8px;
+}
+
+.main {
+  text-align: -webkit-center;
+}
+
+.logo-image {
+  background: url("https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png") no-repeat;
+  background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+  text-align: -webkit-center;
+}
+
+.forms{
+  height: 130px;
+  padding-top: 28px;
+}
+
+.searchbar {
+    box-sizing: border-box;
+  	border-radius: 3px;
+  	height: 44px;
+  	width: 600px;
+  	padding: 5px 9px 0;
+  	border-radius: 2px;
+  	vertical-align: top;
+  	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+input#input-text {
+	float: left;
+	border: none;
+	padding: 8px 0;
+	height: auto;
+	width: 430px;
+	outline: none;
+}
+
+.mic {
+  background: url("../img/google_mic.png");
+  background-size: 24px 24px;
+  width: 18px;
+  height: 23px;
+  position: relative;
+  float: right;
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.buttons input {
+  color: #757575;
+  border: 1px solid #f2f2f2;
+  background-color: #f2f2f2;
+  line-height: 27px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  min-width: 54px;
+  padding: 0 16px;
+  margin: auto;
+}
